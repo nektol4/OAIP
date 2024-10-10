@@ -1,0 +1,76 @@
+	
+#movie = input('Введите название фильма')
+#theate = input('Введите название кинотеатра')
+#time = input('Введите время')
+#print('билет на', '"', movie, '"', 'в', '"', theate, '"', 'на', time, 'забронирован')
+
+
+#month_salary = int(input('Введите зарплату за месяц'))
+#worked_hours = int(input('Введите отработанные часы'))
+#award = month_salary * 0.01 * worked_hours
+#print('Размер премии:', award)
+
+
+#summa = int(input('Введите сумму:'))
+#m1 = summa %10
+#m10 = summa %100 //10
+#m100 = summa %1000 //100
+#m1000 = summa %100000 //1000
+#print(m1, '-по 1р')
+#print(m10, '-по 10р')
+#print(m100, '-по 100р')
+#print(m1000, '-по 1000р')
+
+
+#comm = input('Оцените развлекательный комплекс:')
+#positive_word1 = comm.find('весело')
+#positive_word2 = comm.find('увлекательно')
+#ositive_word3 = comm.find('развлечения')
+#print('Результат анализа:', positive_word1, positive_word2, positive_word3)
+
+
+#word = input("Введите слово:")
+#print(word[(len(word)-1)//2])
+
+
+#feedback = 'Алиса и Вася, большое спасибо за теплый прием!'
+#name1 = feedback[0:5]
+#name2 = feedback[8:12]
+#print('Назначить пермию:', name1 + '/' + name2)
+
+
+#numb = int(input())
+#alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+#if numb + 3 > len(alphabet):
+#    alphabet = alphabet * 2
+#    print(alphabet[numb - 1:numb + 3])
+#else:
+#   print(alphabet[numb - 1:numb + 3])
+
+#my_list = [1, 2, 3, 4, 5]
+#my_list.append(6)
+#my_list.insert(0, 0)
+#my_list.remove(3)
+#del my_list[0]
+#slice = my_list[1:4]
+#reversed_list = my_list[::-1]
+#my_list.reverse()
+#two_dimensional_list = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+#my_list.clear()
+#empty_tuple = ()
+#filled_tuple = (1, 2, 3, 4, 5)
+#print(empty_tuple)
+#print(filled_tuple)
+
+#empty_set = set()
+#my_set = {1, 2, 3, 4, 5}
+#empty_set.add(6)
+#empty_set.add(7)
+#union_set = my_set.union(empty_set)
+#intersection_set = my_set.intersection(empty_set)
+#difference_set = my_set.difference(empty_set)
+#my_dict = {}
+#my_dict = {'name': 'John', 'age': 30, 'city': 'New York'}
+#my_dict['email'] = 'john@example.com'
+#del my_dict['city']
+#my_dict['age'] = 31
