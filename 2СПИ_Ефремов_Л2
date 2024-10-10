@@ -1,0 +1,98 @@
+#word = input("Введите слово:")
+#if word in "Python":
+# print('да')
+#else: print('нет')
+
+
+#answer1 = input()
+#answer2 = input()
+#if answer1 in 'да' and answer2 in 'да':
+# print('верно')
+#elif 'нет' in answer1 and 'нет' in answer2:
+# print('верно')
+#else:
+# print("неверно")
+
+
+#digit1 = input()
+#digit2 = input()
+#digit3 = input()
+#if digit1 == 'раз' and digit2 == 'два' and digit3 == 'три':
+# print('гори')
+#elif digit1 == '1' and digit2 == '2' and digit3 == '3':
+# print('гори')
+#else:
+# print('не гори')
+
+
+#ans1 = input()
+#ans2 = input()
+#a = "Тула"
+#b = "Пенза"
+#if ans1 != ans2 and (ans1 == a and ans2 != b or ans2 == b and ans1 != a):
+# print("ДА")
+#else:
+# print("НЕТ")
+
+
+#m = int(input('Введите сколько марафонец пробегает в день:'))
+#n = int(input("Введите сколько нужно пробежать марафонцу:"))
+#print("добежит за", m // n, "дня")
+
+
+#num = int(input("Введите трехзначное число:"))
+#x = num // 100 % 100
+#b = num % 10
+#z = num // 10 % 10
+#if x % 8 != 0 and z % 8 != 0:
+# if b % 3 != 0:
+# print("Подходит")
+#else:
+# print(z + b, x)
+
+
+#category = input('Введите категорию товара:')
+#if category == "продукты":
+# price = int(input('Введите цену:'))
+#if price < 100:
+# print("Попробуйте нашу выпечку!")
+#elif 100 <= price < 500:
+# print('Как насчет орехов в шоколаде?')
+#elif price >= 500:
+# print('Попробуйте экзотические фрукты!')
+#else:
+# print('Загляните в товары для дома!')
+
+
+#price1 = float(input())
+#price2 = float(input())
+#price3 = float(input())
+#if price1 > price2 > price3:
+# print('Акция!','К оплате:', (price1 + price2 + price3) // 2)
+#elif price3 > price2 > price1:
+# print('Акция!','К оплате:', (price1 + price2 + price3) // 3)
+#else:
+# print('К оплате:', price1 + price2 + price3)
+
+
+#people_yesterday = int(input("напишите количество людей за вчера"))
+#people_1yesterday = int(input("напишите количевство людей за позавчера"))
+#if people_yesterday < people_1yesterday:
+#    people_tomorrow = people_1yesterday + (people_1yesterday - people_yesterday)
+#else:
+#    people_tomorrow = people_1yesterday - (people_1yesterday - people_yesterday)
+#print("сегодня магазин посетит:", people_tomorrow, "человек")
+
+
+#year = int(input("Введите год"))
+#if (year % 4 == 0 or year % 400 == 0) and year % 100 != 0:
+#    print("это високосный год")
+#else:
+#    print("это не високосный год")
+
+
+#chislo = int(input("введите число"))
+#if chislo % 2 == 0:
+#    print("четное")
+#else:
+#    print("не четное")
